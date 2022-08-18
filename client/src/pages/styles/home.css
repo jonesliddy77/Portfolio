@@ -1,0 +1,10 @@
+
+  @font-face {
+    font-family: youknow;
+    src: url("../../fonts/Pilowlava-Regular.otf"); /* IE9 Compat Modes */
+ 
+}
+#heroHeader{
+    color: white;
+    font-size: 3vw;
+}

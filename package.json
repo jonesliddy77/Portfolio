@@ -21,7 +21,10 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "gsap": "^3.11.0",
     "mongodb": "^3.5.8",
-    "mongoose": "^5.9.15"
+    "mongoose": "^5.9.15",
+    "react-anime": "^4.1.1",
+    "react-gsap": "^3.2.1"
   }
 }
