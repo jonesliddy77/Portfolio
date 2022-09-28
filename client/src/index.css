@@ -21,9 +21,15 @@ time, mark, audio, video {
 
 html,
 body {
+font-size: .69444vw;
   margin: 0;
   padding: 0;
-  background: #161616;
+  background: black;
+  overflow: hidden;
+  height: 100vh;
+  width: 100vw;
+  max-width: 100vw;
+  max-height: 100vh;
 }
 
 body::-webkit-scrollbar {

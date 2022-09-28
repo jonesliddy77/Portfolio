@@ -1,17 +1,43 @@
 .menu-open {
-	color: #fff;
+	/* color: black !important; */
 }
-
+#navHeader{
+    position: absolute;
+	top: 25px;
+	left: 25px;    
+    font-family: 'Montserrat', sans-serif;    
+    font-weight:700;
+    text-transform: uppercase;    
+    font-size: 1.5vw;;
+}
+#iconLogo{
+    position: absolute;
+    width: 35px;
+	top: 35px;
+	left: calc(50vw - 35px);    
+    font-family: BlatantFont;
+    font-size: 2vw;
+}
 .menu-open,
 .menu-close {
 	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 40px;
-	font-size: 20px;
+	top: 25px;
+	right: 25px;
+    z-index: 1;
 	cursor: pointer;
+    height: 50px;
+    width: 50px;
+    background-position: center;
+    background-size: cover;
 }
-
+.menu-open{
+    z-index: 1;
+    background-image: url(../Icons/hamburgerMenuSVG.svg);
+}
+.menu-close{
+    z-index: 2;
+   background-image: url(../Icons/closeIcon.svg);
+}
 .socials {
 	position: absolute;
 	bottom: 0;
@@ -26,18 +52,19 @@
 }
 
 .nav-container {
+    z-index: 1;
 	position: fixed;
 	left: -100%;
 	width: 100%;
 	height: 100vh;
-	background: #fff;
+	background: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;    
 }
 
 .menu__item {
 	position: relative;
 	padding: 0 6vw;
-    font-family: 'idk';
-
 }
 
 .menu__item-link {
@@ -120,5 +147,5 @@
 }
 
 .marquee span {
-	font-style: italic;
+
 }
